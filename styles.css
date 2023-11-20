@@ -38,7 +38,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    padding-bottom: 100px;
+    padding-top: 50px;
 }
 
 .header .intro .left {
@@ -60,22 +61,23 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .content1 .cards {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 50px;
     flex:auto;
-
 }
 
 .content2 {
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
-
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .content3 {
@@ -83,9 +85,10 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #3882F6;
-    width: 40vw;
     align-self: center;
     border-radius: 15px;
+    margin: 50px 10vw;
+    padding: 10px 60px;
 }
 
 .footer {
@@ -99,10 +102,13 @@ body {
 .signup {
     background-color: #3882F6;
     color: white;
+    min-width: 100px;
     width: 100px;
     height: 30px;
     border-radius: 10px;
     font-weight: bold;
+    border: none;
+    
 }
 
 
@@ -110,6 +116,7 @@ h1 {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    margin-bottom: 0px;
 }
 
 h2 {
@@ -132,14 +139,29 @@ a, .left p, h3, .footer, .right {
 }
 
 .author {
-    font-size: 18px;
+    font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    text-align: right;
+    margin: 0;
 }
 
 .image {
-    min-width: 100px;
-    min-height: 100px;
     border-radius: 15px;
     border: 3px solid #3882F6;
+    aspect-ratio: 1/1;
+}
+
+.quote {
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+.content3 .signup {
+    border: 2px white solid;
+    margin-left: 40px;
+}
+
+.card {
+    text-align: center;
 }
